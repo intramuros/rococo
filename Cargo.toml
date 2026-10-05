@@ -1,0 +1,11 @@
+[package]
+name = "eclat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+macroquad = { version = "0.4", default-features = false }
+
+# Keep debug builds playable: optimise dependencies even in dev.
+[profile.dev.package."*"]
+opt-level = 2

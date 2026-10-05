@@ -1,0 +1,2 @@
+# Drawing helpers take positions, sizes and colours; 8 arguments reads fine there.
+too-many-arguments-threshold = 9
